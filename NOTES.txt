@@ -1,0 +1,17 @@
+>>> STARTING PROJECT:
+    - npx create-expo-app . -t expo-template-blank-typescript
+>>> DEPENDENCIES:
+    Server:
+        - npm install json-server
+    State manager:
+        - npm install react-redux
+        - npm install @reduxjs/toolkit
+        - npm install --save-dev @types/react-redux
+    Requests:
+        - npm install axios
+        - npm install --save-dev @types/axios
+    Navigation:
+        - npm install @react-navigation/native
+        - npm install @react-navigation/native-stack
+        - npm install react-native-screens
+        - npm install react-native-safe-area-context

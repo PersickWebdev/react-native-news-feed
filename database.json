@@ -1,0 +1,53 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News Title #01",
+      "preview": "This is a short preview for news #01.",
+      "content": "This is full text of news #01. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nme.com%2Fnews%2Fnew-pictures-from-stephen-kings-it-remake-released-as-director-teases-trailer-2029176&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAK"
+    },
+    {
+      "id": 2,
+      "title": "News Title #02",
+      "preview": "This is a short preview for news #02.",
+      "content": "This is full text of news #02. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thewrap.com%2Fsee-pennywise-the-losers-in-full-force-in-new-it-images-photos%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAP"
+    },
+    {
+      "id": 3,
+      "title": "News Title #03",
+      "preview": "This is a short preview for news #03.",
+      "content": "This is full text of news #03. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Flauriestine31%2Fit-movie-pics%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAX"
+    },
+    {
+      "id": 4,
+      "title": "News Title #04",
+      "preview": "This is a short preview for news #04.",
+      "content": "This is full text of news #04. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Few.com%2Fmovies%2Fstephen-king-it-photos%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAg"
+    },
+    {
+      "id": 5,
+      "title": "News Title #05",
+      "preview": "This is a short preview for news #05.",
+      "content": "This is full text of news #05. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Freginacappello%2Friding-the-bullet-stephen-king%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAy"
+    },
+    {
+      "id": 6,
+      "title": "News Title #06",
+      "preview": "This is a short preview for news #06.",
+      "content": "This is full text of news #06. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.de%2Fpin%2F89227636355759353%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABBo"
+    }
+  ],
+  "contacts": {
+    "country": "Ukraine",
+    "city": "Odessa",
+    "phone": "+380630001122",
+    "email": "testCompany@gmail.com",
+    "website": "www.testWebsite.com"
+  }
+}
