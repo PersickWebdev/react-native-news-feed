@@ -3,7 +3,7 @@ import { styles } from './styles';
 import { globalStyles } from '../../styles/global';
 
 interface INewsItem {
-    id: number;
+    id: string;
     title: string;
     preview: string;
     image: string;

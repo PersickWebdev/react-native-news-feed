@@ -4,14 +4,14 @@ import { styles } from './styles';
 interface IButton {
     value: string;
     title: string;
-    action: (value: string) => void;
+    action?: (value: string) => void;
 }
 
 const Button = ({ value, title, action }: IButton) => {
     return (
         <TouchableOpacity
             style={styles.container}
-            onPress={() => action(value)}
+            onPress={() => action && action(value)}
         >
             <Text style={styles.title}>
                 {title}

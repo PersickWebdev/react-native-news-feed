@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, ActivityIndicator } from 'react-native';
 import { useDispatch } from 'react-redux';
+
+import { View, Text, Image, ActivityIndicator } from 'react-native';
 import { Requests } from '../../api/requests';
 import { setCurrentNews } from '../../redux/slices/newsSlice';
+
 import { globalStyles } from '../../styles/global';
 import { styles } from './styles';
 
@@ -37,13 +39,15 @@ const NewsItemScreen = ({ route, navigation }) => {
                 <ActivityIndicator style={{ marginBottom: 20 }}/>
                 :
                 <View style={styles.contentContainer}>
-                    <Image source={{ uri: image }}/>
-                    <Text style={globalStyles.headingMedium}>
-                        {title}
-                    </Text>
-                    <Text style={globalStyles.text}>
-                        {content}
-                    </Text>
+                    <View>
+                        <Image source={{ uri: image }}/>
+                        <Text style={globalStyles.headingMedium}>
+                            {title}
+                        </Text>
+                        <Text style={globalStyles.text}>
+                            {content}
+                        </Text>
+                    </View>
                 </View>
             }
         </View>

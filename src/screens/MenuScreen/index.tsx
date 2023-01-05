@@ -5,7 +5,7 @@ import { styles } from './styles';
 // @ts-ignore
 const MenuScreen = ({ navigation }) => {
 
-    const switchScreen = (value: string) => {
+    const switchScreen = (value: string | null) => {
         navigation.navigate(value);
     };
 
@@ -14,12 +14,17 @@ const MenuScreen = ({ navigation }) => {
             <Button
                 value='Contacts'
                 title='Contacts'
-                action={(value: string) => switchScreen(value)}
+                action={(value: string | null) => switchScreen(value)}
             />
             <Button
                 value='News'
                 title='News'
-                action={(value: string) => switchScreen(value)}
+                action={(value: string | null) => switchScreen(value)}
+            />
+            <Button
+                value='LogIn'
+                title='Log In'
+                action={(value: string | null) => switchScreen(value)}
             />
         </View>
     );

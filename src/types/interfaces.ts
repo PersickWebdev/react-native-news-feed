@@ -1,5 +1,5 @@
 export interface INews {
-    id: number;
+    id: string;
     title: string;
     preview: string;
     content: string;
@@ -12,4 +12,9 @@ export interface IContacts {
     phone: string;
     email: string;
     website: string;
+}
+
+export interface ILoginFormData {
+    email: string;
+    password: string;
 }
