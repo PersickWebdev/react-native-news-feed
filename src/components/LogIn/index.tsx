@@ -23,7 +23,7 @@ const LogIn = ({ navigation }) => {
         const adminData = await Requests.getAdminData();
         if (adminData.data.email === formData.email && adminData.data.password === formData.password) {
             dispatch(setAdmin(true));
-            navigation.navigate('CreateNews');
+            navigation.navigate('Home');
         } else {
             Alert.alert('Incorrect login data');
         }
