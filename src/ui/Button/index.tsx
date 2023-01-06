@@ -1,4 +1,5 @@
 import { Text, TouchableOpacity } from 'react-native';
+import { colors } from '../../styles/colors';
 import { styles } from './styles';
 
 interface IButton {
@@ -8,6 +9,7 @@ interface IButton {
 }
 
 const Button = ({ value, title, action }: IButton) => {
+
     return (
         <TouchableOpacity
             style={styles.container}
