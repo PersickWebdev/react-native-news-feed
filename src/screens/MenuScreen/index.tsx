@@ -17,30 +17,32 @@ const MenuScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <InfoPanel/>
-            <Button
-                value='Contacts'
-                title='Contacts'
-                action={(value: string | null) => switchScreen(value)}
-            />
-            <Button
-                value='News'
-                title='News'
-                action={(value: string | null) => switchScreen(value)}
-            />
-            {isAdmin
-                ?
+            <View style={styles.buttonsContainer}>
                 <Button
-                    value='CreateNews'
-                    title='CreateNews'
+                    value='Contacts'
+                    title='Contacts'
                     action={(value: string | null) => switchScreen(value)}
                 />
-                :
                 <Button
-                    value='LogIn'
-                    title='Log In'
+                    value='News'
+                    title='News'
                     action={(value: string | null) => switchScreen(value)}
                 />
-            }
+                {isAdmin
+                    ?
+                    <Button
+                        value='CreateNews'
+                        title='CreateNews'
+                        action={(value: string | null) => switchScreen(value)}
+                    />
+                    :
+                    <Button
+                        value='LogIn'
+                        title='Log In'
+                        action={(value: string | null) => switchScreen(value)}
+                    />
+                }
+            </View>
         </View>
     );
 };

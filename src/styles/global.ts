@@ -26,5 +26,11 @@ export const globalStyles = StyleSheet.create({
         fontWeight: '600',
         textTransform: 'uppercase',
         color: colors.white,
+    },
+    formError: {
+        marginTop: 4,
+        fontSize: 11,
+        fontWeight: '400',
+        color: colors.error,
     }
 });
