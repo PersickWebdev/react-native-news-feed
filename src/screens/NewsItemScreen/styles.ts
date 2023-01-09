@@ -14,5 +14,10 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 10,
         borderRadius: 6,
         backgroundColor: colors.black,
+    },
+    image: {
+        width: '100%',
+        height: 250,
+        marginBottom: 10,
     }
 });

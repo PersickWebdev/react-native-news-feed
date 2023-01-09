@@ -24,7 +24,7 @@ const CreateNewsScreen = ({ navigation }) => {
             title: formData.title.trim(),
             preview: formData.preview.trim(),
             content: formData.content.trim(),
-            image: ''
+            image: formData.image.trim(),
         }
 
         try {
@@ -59,6 +59,13 @@ const CreateNewsScreen = ({ navigation }) => {
                 <Input
                     label="Content"
                     name="content"
+                    textContentType="text"
+                    multiline={true}
+                    setFormData={setFormData}
+                />
+                <Input
+                    label="Image URI"
+                    name="image"
                     textContentType="text"
                     multiline={true}
                     setFormData={setFormData}

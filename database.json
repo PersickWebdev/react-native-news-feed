@@ -2,52 +2,52 @@
   "news": [
     {
       "id": "1",
-      "title": "News Title #01",
+      "title": "Pennywise #01",
       "preview": "This is a short preview for news #01.",
       "content": "This is full text of news #01. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nme.com%2Fnews%2Fnew-pictures-from-stephen-kings-it-remake-released-as-director-teases-trailer-2029176&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAK"
+      "image": "https://www.nme.com/wp-content/uploads/2017/03/Stephen-King.png"
     },
     {
       "id": "2",
-      "title": "News Title #02",
+      "title": "Pennywise #02",
       "preview": "This is a short preview for news #02.",
       "content": "This is full text of news #02. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thewrap.com%2Fsee-pennywise-the-losers-in-full-force-in-new-it-images-photos%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAP"
+      "image": "https://www.thewrap.com/wp-content/uploads/2017/05/pennywise-IT.jpg"
     },
     {
       "id": "3",
-      "title": "News Title #03",
+      "title": "Pennywise #03",
       "preview": "This is a short preview for news #03.",
       "content": "This is full text of news #03. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Flauriestine31%2Fit-movie-pics%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAX"
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F08%2Fit-19590r-2000.jpg"
     },
     {
       "id": "4",
-      "title": "News Title #04",
+      "title": "Pennywise #04",
       "preview": "This is a short preview for news #04.",
       "content": "This is full text of news #04. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Few.com%2Fmovies%2Fstephen-king-it-photos%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAg"
+      "image": "https://movietvtechgeeks.com/wp-content/uploads/2016/09/stephen-kings-it-movie-wraps-with-new-pennywise-image-2016-pics.jpg"
     },
     {
       "id": "5",
-      "title": "News Title #05",
+      "title": "Pennywise #05",
       "preview": "This is a short preview for news #05.",
       "content": "This is full text of news #05. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Freginacappello%2Friding-the-bullet-stephen-king%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABAy"
+      "image": "https://www.maxim.com/wp-content/uploads/2021/05/it-pennywise-the-clown.jpg"
     },
     {
       "id": "6",
-      "title": "News Title #06",
+      "title": "Pennywise #06",
       "preview": "This is a short preview for news #06.",
       "content": "This is full text of news #06. Some very important news. Read it carefully, because it is really, really important.",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.de%2Fpin%2F89227636355759353%2F&psig=AOvVaw1xD5p-wllYsNc4oILtEICg&ust=1672237695868000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDT0ICBmvwCFQAAAAAdAAAAABBo"
+      "image": "https://cdn.mos.cms.futurecdn.net/JHWexf9m7aPbPBjowNebxM-1920-80.jpg.webp"
     },
     {
       "id": "oo97tu0k",
-      "title": "News Title #07",
-      "preview": "Preview 07.",
-      "content": "Content 07.",
-      "image": ""
+      "title": "Pennywise #07",
+      "preview": "This is a short preview for news #07.",
+      "content": "This is full text of news #07. Some very important news. Read it carefully, because it is really, really important.",
+      "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2018/09/It-2-e1537454735659.jpg"
     }
   ],
   "contacts": {

@@ -6,11 +6,12 @@ export const styles = StyleSheet.create({
         marginBottom: 4,
         flexDirection: 'row',
         paddingVertical: 10,
-        paddingHorizontal: 20,
+        paddingHorizontal: 10,
         backgroundColor: colors.black,
     },
     image: {
         width: 60,
         height: 60,
+        marginRight: 20,
     }
 });

@@ -49,7 +49,10 @@ const NewsItemScreen = ({ route, navigation }) => {
         fetchNewsItem();
     }, []);
 
-    console.log('NewsItemScreen - item id: ', id);
+    console.log('NewsItemScreen - id: ', id);
+    console.log('NewsItemScreen - title: ', title);
+    console.log('NewsItemScreen - content: ', content);
+    console.log('NewsItemScreen - image: ', image);
 
     return (
         <View style={styles.container}>
@@ -59,7 +62,10 @@ const NewsItemScreen = ({ route, navigation }) => {
                 :
                 <View style={styles.contentContainer}>
                     <View>
-                        <Image source={{ uri: image }}/>
+                        <Image
+                            style={styles.image}
+                            source={{ uri: image }}
+                        />
                         <Text style={globalStyles.headingMedium}>
                             {title}
                         </Text>
