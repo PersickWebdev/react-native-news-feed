@@ -11,9 +11,9 @@ interface IInput {
     name: string;
     textContentType: any;
     multiline?: boolean;
-    error: string;
+    error?: string;
     setFormData: (state: any) => void;
-    setFormErrors: (state: any) => void;
+    setFormErrors?: (state: any) => void;
 }
 
 const Input = ({ label, name, textContentType, multiline, error, setFormData, setFormErrors }: IInput) => {

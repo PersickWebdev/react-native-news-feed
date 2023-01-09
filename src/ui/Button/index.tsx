@@ -1,21 +1,28 @@
 import { Text, TouchableOpacity } from 'react-native';
-import { colors } from '../../styles/colors';
+
 import { styles } from './styles';
 
 interface IButton {
     value: string;
     title: string;
     action?: (value: string) => void;
+    buttonType?: string;
 }
 
-const Button = ({ value, title, action }: IButton) => {
+// buttonType:
+// - success        - green colored button text
+// - warning        - yellow colored button text
+// - error          - red colored button text
+
+const Button = ({ value, title, action, buttonType }: IButton) => {
 
     return (
         <TouchableOpacity
             style={styles.container}
             onPress={() => action && action(value)}
         >
-            <Text style={styles.title}>
+            {/*@ts-ignore*/}
+            <Text style={buttonType ? [ styles.title, styles[`${buttonType}`]] : styles.title}>
                 {title}
             </Text>
         </TouchableOpacity>

@@ -14,6 +14,9 @@ export const Requests = {
     addOneNews: async (newNews: INews) => {
         return await axios.post(Endpoints.news, newNews);
     },
+    removeOneNews: async (newsId: string) => {
+        return await axios.delete(`${Endpoints.news}/${newsId}`);
+    },
 
     // contacts requests:
     getContacts: async () => {

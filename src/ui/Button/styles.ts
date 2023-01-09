@@ -12,5 +12,17 @@ export const styles = StyleSheet.create({
     title: {
         textAlign: 'center',
         color: colors.white,
+    },
+    success: {
+        textAlign: 'center',
+        color: colors.success,
+    },
+    warning: {
+        textAlign: 'center',
+        color: colors.warning,
+    },
+    error: {
+        textAlign: 'center',
+        color: colors.error,
     }
 });

@@ -32,11 +32,11 @@ const CreateNewsScreen = ({ navigation }) => {
             const response = await Requests.addOneNews(data);
             dispatch(setOneNews(response.data));
             setIsLoading(false);
+            Alert.alert('Success', 'News successfully created');
             navigation.navigate('Home');
         } catch(error: any) {
             Alert.alert('Error', 'Fetch data failed');
         }
-
     };
 
     return (
